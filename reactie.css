@@ -1,5 +1,18 @@
 body {
-	background-color: #1D1D1D; /*#663333;*/ /*#A52A2A;*/
+	background-color: #050505; /*#1D1D1D;*/ /*#663333;*/ /*#A52A2A;*/
+}
+
+#hist {
+	position: absolute;
+	margin-top: 0;
+	padding-top: 0;
+	color: aliceblue;
+}
+
+#stats {
+	position: absolute;
+	left: 78%;
+	color: aliceblue;
 }
 
 #screen {
@@ -12,7 +25,7 @@ body {
 	display: block;	
 }
 
-#console {
+#console, #medie {
 	display: block;
 	margin-top: 20px;
 	margin-right: auto;

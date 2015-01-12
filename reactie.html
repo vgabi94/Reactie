@@ -8,8 +8,17 @@
 </head>
 
 <body onkeydown="computeTimeDiff()">
+	<div id="hist">
+		<h4>Timpi de reacţie (ms)</h4>
+		<ol id="history"></ol>
+	</div>
+	<div id="stats">
+		<h4 id="best">Cel mai bun timp: ?</h4>
+		<h4 id="worst">Cel mai prost timp: ?</h4>
+	</div>
 	<div id="info">Apăsați o tastă când pătratul se colorează <br/> Pentru RESTART apăsați din nou o tastă.</div>
 	<canvas id="screen" width="640" height="380"></canvas>
+	<div id="medie">Medie 0.0 ms</div>
 	<div id="console"></div>
 
 	<script src="reactie.js"></script>
